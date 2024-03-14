@@ -1,15 +1,15 @@
-// I don't know how this is going to work but just working on 
-// getting the Linux VM to connect to github
-
+// operators
 let x = 5;
 let y = 10;
 let z = x + y;
 console.log(x *= y);
 console.log(z);
 
+// variables + string
 let firstName = "John", lastName = "Doe", age = 35;
 console.log("His name is", firstName, lastName, "and he is", age, "years old.");
 
+// objects 
 const person = {
     firstName: "Dawn",
     lastName: "Soap"
@@ -27,3 +27,10 @@ console.log(roses)
 let sunflowers = "SUNFLOWERS";
 sunflowers = sunflowers.toLowerCase();
 console.log(sunflowers);
+
+// arrays 
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2)
+fruits.push("Cherry")
+fruits.sort()
+console.log(fruits)
