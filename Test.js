@@ -15,3 +15,15 @@ const person = {
     lastName: "Soap"
 };
 console.log(person.firstName, person.lastName);
+
+const person2 = {
+    name : "Tulip", age : 27
+}
+console.log(person2.name, "is", person2.age)
+
+let roses = "roses";
+roses = roses.toUpperCase();
+console.log(roses)
+let sunflowers = "SUNFLOWERS";
+sunflowers = sunflowers.toLowerCase();
+console.log(sunflowers);
